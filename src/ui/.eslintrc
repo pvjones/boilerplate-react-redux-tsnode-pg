@@ -1,0 +1,65 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint-config-airbnb",
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "max-len": [
+      "warn",
+      {
+        "code": 170,
+        "ignoreStrings": true,
+        "ignoreUrls": true
+      }
+    ],
+    "prefer-destructuring": "off",
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/jsx-uses-react": "warn",
+    "react/jsx-uses-vars": "warn",
+    "react/react-in-jsx-scope": "warn",
+    "react/jsx-first-prop-new-line": "off",
+    "react/no-array-index-key": "warn",
+    "react/prop-types": "off",
+    "jsx-quotes": "off",
+    "function-paren-newline": "off",
+    "object-curly-newline": "off",
+    "indent": [
+      "off",
+      2
+    ],
+    "linebreak-style": "off",
+    "no-use-before-define": "off",
+    "padded-blocks": "off",
+    "semi": "off",
+    "comma-dangle": [
+      "warn",
+      "always-multiline"
+    ],
+    "arrow-parens": [
+      "error",
+      "as-needed"
+    ],
+    "import/no-extraneous-dependencies": "warn",
+    "import/first": "off",
+    "import/prefer-default-export": "off",
+    "no-unneeded-ternary": "warn",
+    "arrow-body-style": [
+      "warn",
+      "as-needed"
+    ],
+    "no-trailing-spaces": "warn"
+  }
+}

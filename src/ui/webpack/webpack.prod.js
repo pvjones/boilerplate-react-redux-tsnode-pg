@@ -1,8 +1,8 @@
-var webpack = require('webpack')
-var webpackMerge = require('webpack-merge')
-var CleanWebpackPlugin = require('clean-webpack-plugin')
-var commonConfig = require('./webpack.common.js')('prod')
-var path = require('path')
+const webpack = require('webpack')
+const webpackMerge = require('webpack-merge')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
+const commonConfig = require('./webpack.common.js')('prod')
+const path = require('path')
 
 module.exports = webpackMerge(commonConfig, {
 

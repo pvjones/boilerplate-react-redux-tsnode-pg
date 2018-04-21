@@ -1,21 +1,16 @@
 {
-  "name": "boilerplate-express-massive-postgres",
+  "name": "blueprint-react",
   "version": "1.0.0",
-  "description": "Boilerplate for simple node server with Express and Postgres",
-  "main": "index.js",
+  "description": "blueprint-react",
   "scripts": {
     "build:api": "babel src/api --presets babel-preset-es2015 --out-dir dist/api"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pvjones/boilerplate-express-massive-postgres.git"
+    "url": "git+https://github.com/pvjones/blueprint-react.git"
   },
-  "author": "",
+  "author": "Paul Jones",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pvjones/boilerplate-express-massive-postgres/issues"
-  },
-  "homepage": "https://github.com/pvjones/boilerplate-express-massive-postgres#readme",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-es2015": "~6.24.1",

@@ -9,7 +9,7 @@ module.exports = webpackMerge(commonConfig, {
   devtool: '#cheap-module-eval-source-map',
 
   devServer: {
-    contentBase: '../../dist/api/static/',
+    contentBase: '../../../dist/api/static/',
     historyApiFallback: true,
     stats: 'minimal',
   },

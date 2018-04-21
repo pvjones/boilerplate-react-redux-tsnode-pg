@@ -7,7 +7,7 @@ const baseHref = process.env.WP_BASE_HREF ? process.env.WP_BASE_HREF : '/'
 
 module.exports = env => ({
 
-  context: path.resolve(__dirname, '..', 'src', 'app'),
+  context: path.resolve(__dirname, '..', 'app'),
 
   entry: {
     app: './App.jsx',
